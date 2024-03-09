@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './Components/Navbar';
+import Hero from './Components/Hero/Hero'
 import {BrowserRouter, Routes,  Route} from 'react-router-dom'
 import Product from './Pages/Product';
 import Cart from './Pages/Cart';
@@ -9,7 +10,8 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        <Navbar/>
+        <Navbar />
+        <Hero/>
         <Routes>
           <Route path='/' element={<shop/>}></Route>
           <Route path='/mens' element={<shopCategory category="men"/>}></Route>
