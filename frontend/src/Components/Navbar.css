@@ -7,12 +7,12 @@
 
 .nav-logo {
     display: flex;
-    gap: 10px;
     align-items: center;
+    gap: 10px;
 }
 
 .nav-logo p {
-    color: black;
+    color: #171717;
     font-size: 38px;
     font-weight: 600;
 }
@@ -22,7 +22,7 @@
     align-items: center;
     list-style: none;
     gap: 50px;
-    color: black;
+    color: #626262;
     font-size: 20px;
     font-weight: 500;
 }
@@ -41,7 +41,7 @@
     width: 80%;
     height: 3px;
     border-radius: 10px;
-    background: red;
+    background: #FF4141;
 }
 
 .nav-login-cart {
